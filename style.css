@@ -4,11 +4,10 @@
 }
 
 html {
-    color: rgb(202, 90, 39);
+    color: rgb(253, 120, 59);
     font-family: 'Raleway', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    text-rendering: optimizeLegibility;
     background: url(https://c4.wallpaperflare.com/wallpaper/388/487/748/fantasy-art-rifles-artwork-anvil-forge-1920x1080-abstract-fantasy-hd-art-wallpaper-preview.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,8 +20,7 @@ h1 {
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     font-size: 320%;
-    color:rgb(221, 208, 202)
-    text-transform: uppercase;
+    color:rgb(218, 169, 146);
     letter-spacing: 1px;
     margin-left: 50px;
 }
@@ -37,8 +35,12 @@ h2 {
     padding: 1%;
 }
 
-.title {width: 900px;}
-
+.btn-success {
+    color:rgb(8, 7, 7);
+    background-color:rgb(253, 120, 59);
+    font-weight: bold;
+    border-radius: 7px;
+}
 .gallery {
     list-style: none;
     width: 100%;
@@ -59,16 +61,16 @@ img {width: 500px;}
 .meme-img:hover {opacity: 0.6;}
 
 .red-cross {
-    width: 500px;
+    width: 400px;
     height: 250px;
     content: "X";
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -66%);
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
-    font-size: 1500%;
+    font-size: 1400%;
     opacity: 0;
 }
 
@@ -118,6 +120,10 @@ footer {
     border-top: 1px solid rgb(202, 90, 39);
 }
 
+.group-form {
+    margin-left: 52px;
+}
+
 .footer p {font-family: Impact, Arial, sans-serif;
 text-transform: uppercase;}
 
@@ -145,6 +151,7 @@ img,
 .text {
     width: 350px;
 }
+
 .text {
     font-size: 160%;
-}
+}}
