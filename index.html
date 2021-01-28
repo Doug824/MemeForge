@@ -1,41 +1,35 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" type="text/css" href="style.css">
-
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Meme Generator</title>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 </head>
+<header class="container-fluid">
+	<div class="container mx-auto text-center mb-5 title">
+		<h1 class="text-info">THE MEME FORGE</h1>
+		<h2 class="text-description">Craft High-Quality Memes on your Own!</h2>
+	</div>
+	<form id="memeForm" method="POST">
+</header>
 <body>
-	<div class="background">
-	<header class="container-fluid">
-		<div class="container mx-auto text-center mb-5 title">
-			<h1 class="text-info">THE MEME FORGE</h1>
-			<h2>Craft High-Quality Memes on your Own!</h2>
-		</div>
-		<br><br>
-		<div class="steps">
-			<p></p>
-		</div>
-	</header>
+<div class="background">
 	<section class="container"> 
-		<form id="meme-form">
 <!-- Image -->
-	<div class="group-form row mb-5">
+<div class="group-form row mb-5">
 		<label for="link-to-pic" class="col-md-2 col-form-label">Image URL:</label>
 		<div class="col-md-10">
     	<input type="url" class="form-control" id="uploaded-img" placeholder="URL material" required>
-   		</div>
+		</div>
 	</div>
 	<br>
 <!-- text-top -->
 	<div class="group-form row mb-5">
 		<label for="text-on-top" class="col-md-2 col-form-label">Top Meme Text:</label>
 		<div class="col-md-10">
-      		<input type="text" class="form-control" id="text-top" placeholder="Top Text Reagent">
+			<input type="text" class="form-control" id="text-top" placeholder="Top Text Reagent">
     	</div>
 	</div>
 	<br>
@@ -43,25 +37,25 @@
 	<div class="group-form row mb-5">
 		<label for="text-on-bottom" class="col-md-2 col-form-label">Bottom Meme Text:</label>
 		<div class="col-md-10">
-      		<input type="text" class="form-control" id="text-bottom" placeholder="Bottom Text Component">
+			<input type="text" class="form-control" id="text-bottom" placeholder="Bottom Text Component">
     	</div>
 	</div>
 <!-- Button -->
 	<div class="group-form row mb-5">
 		<label class="col-md-2 col-form-label">&nbsp;</label>
 		<div class="col-md-2">
-      		<input type="submit" class="btn btn-success" value="FORGE!">
+			<input type="submit" class="btn btn-success" value="FORGE!">
     	</div>
 	</div>
 		</form>
 	<div class="line"></div>
 	</section>
 </div>
-<section class="meme-gallery">
+<div id="meme-gallery">
 	<ul class="gallery">
+		<li></li>
 	</ul>
-</section>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
 	<footer>
 		<div class="container-fluid footer">
 			<p>Fuel the Forge!</p>	
